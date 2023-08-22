@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title> WDWE App by Kamal Sir </title>
+	<style>
+		* { font-size:60px; font-family: Calibri; }
+		body { background-color: lightblue; }
+	</style>
+	<script>
+		function find()
+		{
+			let d = new Date();
+			let day = d.getDay();
+			if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5)
+				alert("Weekday");
+			else
+				alert("Weekend");
+		}
+	</script>
+</head>
+
+<body>
+<center>
+	<h1> Weekday / Weekend App </h1>
+	<form onsubmit="find()">	
+	<input type="submit" />
+	</form>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
